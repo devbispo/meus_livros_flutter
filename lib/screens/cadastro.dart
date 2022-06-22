@@ -5,7 +5,7 @@ class Cadastro extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 104, 82, 170),
+        backgroundColor: Color.fromARGB(255, 104, 82, 0),
         title: const Text('Novo Livro'),
         actions: [
           TextButton(
@@ -22,7 +22,7 @@ class Cadastro extends StatelessWidget {
           TextField(
             decoration: InputDecoration(
               border: UnderlineInputBorder(),
-              label: Text("Nome do lIVRO"),
+              label: Text("Nome do livro"),
             ),
           ),
           TextField(

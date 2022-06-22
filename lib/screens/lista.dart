@@ -6,7 +6,7 @@ class Lista extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 104, 82, 170),
-        title: Text('Videos da Twitch'),
+        title: Text('Meus Livros'),
         actions: [
           IconButton(
             icon: Icon(Icons.exit_to_app),
@@ -49,7 +49,7 @@ class Lista extends StatelessWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Color.fromARGB(255, 104, 82, 170),
+        backgroundColor: Color.fromARGB(255, 104, 82, 0),
         child: Icon(Icons.add),
         onPressed: () => Navigator.pushNamed(context, '/cadastro'),
       ),
